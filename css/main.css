@@ -1,0 +1,194 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+html,
+body {
+    /*height: 2000px;*/
+    color: #505050;
+    line-height: 1.75em;
+    background: #ebebeb;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #303030;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 6.5em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+    font-size: 0.75em;
+}
+a {
+    color: #e67e22;
+    outline: none;
+}
+a:hover {
+    color: #e67e22;
+}
+a:active,
+a:focus,
+a img {
+    outline: none;
+    color:rgba(255,255,255,0.9)
+}
+#right-nav li a:focus {
+    color: #f6f6f6;
+}
+.btn {
+    padding: 7px 14px;
+    border-radius: 2px;
+}
+.btn-default {
+    border: 1px solid #e67e22;
+    background: #e67e22;
+    color: #ffffff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.btn-default:hover {
+    border: 1px solid #303030;
+    background: #303030;
+    color: #ffffff;
+}
+.btn-default:focus {
+    outline: none;
+}
+.btn-default[disabled] {
+    border: 1px solid #303030;
+    background: #303030;
+    color: #ffffff;
+}
+/*__________________________阿里iconfont___________________________________*/
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/*__________________________自定义CSS___________________________________*/
+
+#box-header{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#box-header>h2{
+    font-size: 6.25em;
+   color: #f6f6f6;
+    position: fixed;
+}
+.page{
+    height: 100%;
+    width:100%;
+}
+.box{
+    width: 100px;
+    height: 40px;
+    background-color: mediumseagreen;
+    position: fixed;
+    top: 400px;
+    right: 0;
+}
+.list-group{
+    width: 140px;
+    /*background-color: mediumseagreen;*/
+    position: fixed;
+    top: 160px;
+    right: 80px;
+}
+.list-group a {
+    text-align: center;
+}
+#context{
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    height: 2000px;
+
+}
+#maincontext{
+    height: auto;
+    width: 750px;
+    background-color: rgba(25, 0, 14, 0.5);
+}
+/*__________________________右侧导航栏CSS___________________________________*/
+ .scrollspy-nav {
+     top: 0;
+     z-index: 100;
+      background: rgba(14, 144, 210, 0.6);
+     width: 100%;
+     padding: 0 10px;
+
+ }
+
+.scrollspy-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.scrollspy-nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+.scrollspy-nav a:hover {
+text-decoration: none;
+    color: white;
+}
+.scrollspy-nav a {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.scrollspy-nav a.am-active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.am-panel {
+    margin-top: 20px;
+}
+
+
+/*-------------------简历内容CSS-----------------*/
+#maincontext p{
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+#about,#team,#ep,#second,#third{
+background-color: rgba(255,255,255,0.76);
+}
+
+/* animation 特效 */
+   #box-header h2 {
+        animate-duration:10s;
+        /* //动画持续时间 */
+        animate-delay: 10s;
+        /* //动画延迟时间 */
+        animate-iteration-count: 1;
+        /* //动画执行次数 */
+    }
